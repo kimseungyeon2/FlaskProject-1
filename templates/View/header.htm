@@ -1,0 +1,41 @@
+<div id="message">
+    {% include 'View/message.htm'%}
+</div>
+
+<div class="ui secondary pointing menu">
+    <a class="item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        Text change Image
+        </font></font>
+    </a>
+    <a class="item"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+        My Changed Images
+        </font></font>
+    </a>
+    <div class="right menu">
+        {% if Auth %}
+            <a class="ui item active"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                <div id="logoutBtn">
+                    Logout
+                </div>    
+            </font></font>
+            </a>
+        {% else %}
+            <a class="ui item active"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">
+                <div id="loginBtn">
+                    LogIn
+                </div>
+                </font></font>
+            </a>
+        {% endif %}
+    </div>
+</div>
+
+<div id="login">
+<!--login Modal-->
+{% include 'View/Article/loginModal.htm' %}
+</div>
+
+<div id="register">
+<!--register Modal-->
+{% include 'View/Article/registerModal.htm' %}
+</div>

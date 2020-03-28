@@ -1,0 +1,38 @@
+#drop {
+    border:3px solid black;
+    border-style: dashed;
+    padding: 5%;
+    width: 100%;
+}
+#drop > h1{
+    text-align: center;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+#imgBox > .column > img{
+    border:2px solid black;
+    border-style: dashed;
+    width:100%;
+    height:150px;
+}
+
+#imgBox > .column > i{
+    float: right;
+    color:black;
+}
+
+#imgBox > .column > i:hover{
+    float: right;
+    size: 150%;
+    color:red;
+}
+
+#imgBox > .column > span{
+    color:black;
+}
+
+#imgBox > .column > img:hover{
+    border: 5px solid red;
+    border-style: dashed;
+}

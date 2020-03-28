@@ -1,0 +1,6 @@
+/config.py
+/static/semantic
+/static/public
+/__pycache__
+/Controller/__pycache__
+/Model/__pycache__
